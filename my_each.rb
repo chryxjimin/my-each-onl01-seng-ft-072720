@@ -7,7 +7,6 @@ def my_each(collection) # put argument(s) here\
     while i < collection.length
       yield(collection)
        i += 1
-     end
     end
     my_each(collection)
   end
