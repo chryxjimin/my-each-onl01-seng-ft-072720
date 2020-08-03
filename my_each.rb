@@ -5,7 +5,6 @@ def my_each(collection) # put argument(s) here\
   #if my_each.length >= 1
       i = 0
     while i < collection.length
-    my_each(collection) do |i|
       yield(collection[i])
        puts "i"
       i += 1
