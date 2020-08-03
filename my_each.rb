@@ -10,5 +10,5 @@ def my_each(collection) # put argument(s) here\
        puts "i"
       i = i + 1
     end
-    my_each
+    puts i
   end
