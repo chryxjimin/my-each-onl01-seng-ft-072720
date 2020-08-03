@@ -8,6 +8,6 @@ def my_each(collection) # put argument(s) here\
       yielding(collection[i]) do
        i += 1
     end
-    my_each(collection)
+    puts my_each(collection)
   end
 end
