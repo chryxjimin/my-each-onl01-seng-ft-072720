@@ -1,10 +1,10 @@
 require "pry"
 binding.pry
-def my_each(words) # put argument(s) here\
+def my_each(collection) # put argument(s) here\
   if my_each.length >= 1
       i = 0
-    while counter < words.length
-    my_each(words) do |words|
+    while counter < collection.length
+    my_each(collection) do |words|
       yield(words[i])
       puts i
       i = i + 1
