@@ -1,5 +1,5 @@
-require "pry"
-binding.pry
+#require "pry"
+#binding.pry
 #collection = [1, 2, 3, 4]
 def my_each(collection) # put argument(s) here\
   #if my_each.length >= 1
@@ -8,5 +8,5 @@ def my_each(collection) # put argument(s) here\
       yield(collection)
        i += 1
     end
-    my_each(collection)
+    collection
   end
