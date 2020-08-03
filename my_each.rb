@@ -8,5 +8,5 @@ def my_each(collection) # put argument(s) here\
       yield(collection)
        i += 1
     end
-    return collection(i)
+    return collection
   end
